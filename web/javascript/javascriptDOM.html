@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--什么是DOM:
+DOM 是Document Object Model( 文档对象模型 )的缩写。
+DOM是把html里面的各种数据当作对象进行操作的一种思路。
+比如一个超链，作为一个DOM对象，就可以使其隐藏，修改其href指向的地址。
+完整的javascript由语言基础，BOM和DOM组成。
+只有通过javascript操作DOM对象的时候，才会带来很好的实用效果-->
+<button onclick="document.getElementById('text').style.display='none'">隐藏文本</button><br>
+<button onclick="document.getElementById('text').style.display='block'">显示文本</button><br>
+<a id="text">这是文本内容</a>
+</body>
+</html>

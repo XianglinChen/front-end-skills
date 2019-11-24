@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function get(){
+            var value = document.getElementById("num1").value;
+            document.getElementById("result").value="从num1中取到的值:"+value;
+        }
+    </script>
+</head>
+<body>
+<input type="text" id="num1" value="1">
+<br>
+<input type="text" id="result" value="">
+<br>
+<input type="button" value="取值" onclick="get()" >
+</body>
+</html>
